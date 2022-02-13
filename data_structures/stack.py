@@ -1,10 +1,12 @@
+from typing import Any
+
 
 class Stack:
     def __init__(self, limit=10):
         self._stack = []
         self._limit = limit
 
-    def push(self, value):
+    def push(self, value: Any):
         try:
             if len(self._stack) < self._limit:
                 self._stack.append(value)
@@ -13,13 +15,13 @@ class Stack:
         except Exception as e:
             print(e)
 
-    def top(self):
+    def top(self) -> Any:
         return self._stack[-1]
 
-    def pop(self):
+    def pop(self) -> Any:
         return self._stack.pop(-1)
 
-    def empty(self):
+    def empty(self) -> int:
         if len(self._stack) == 0:
             return 1
         else:
