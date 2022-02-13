@@ -1,3 +1,4 @@
+
 class Stack:
     def __init__(self, limit=10):
         self._stack = []
