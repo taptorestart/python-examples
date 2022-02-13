@@ -1,19 +1,21 @@
+from typing import Any
+
 
 class Node:
-    def __init__(self, value):
+    def __init__(self, value: Any):
         self._value = value
         self._next_node = None
 
     def set_value(self, value):
         self._value = value
 
-    def get_value(self):
+    def get_value(self) -> Any:
         return self._value
 
     def set_next_node(self, node):
         self._next_node = node
 
-    def get_next_node(self):
+    def get_next_node(self) -> Any:
         return self._next_node
 
 
