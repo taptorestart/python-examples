@@ -1,3 +1,4 @@
+
 class Node:
     def __init__(self, value):
         self._value = value
@@ -6,11 +7,11 @@ class Node:
     def set_value(self, value):
         self._value = value
 
-    def set_next_node(self, node):
-        self._next_node = node
-
     def get_value(self):
         return self._value
+
+    def set_next_node(self, node):
+        self._next_node = node
 
     def get_next_node(self):
         return self._next_node
