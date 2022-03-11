@@ -15,8 +15,9 @@
 - factorial
 
 ## Packages Examples
-- opencv
-- slack_sdk
-- hashlib
-- pyjwt
-- influxdb
+- opencv: Save image or video from RTSP Url
+- slack_sdk: Send slack message
+- hashlib: Make hashed text
+- pyjwt: jwt encode and decode
+- influxdb: Write and read on influxdb
+- dateparser: Get date by timezone string
