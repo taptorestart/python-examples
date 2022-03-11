@@ -19,3 +19,4 @@
 - slack_sdk
 - hashlib
 - pyjwt
+- influxdb
