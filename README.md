@@ -17,3 +17,4 @@
 ## Packages Examples
 - opencv
 - slack_sdk
+- hashlib
