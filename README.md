@@ -18,3 +18,4 @@
 - opencv
 - slack_sdk
 - hashlib
+- pyjwt
