@@ -21,3 +21,4 @@
 - pyjwt: jwt encode and decode
 - influxdb: Write and read on influxdb
 - dateparser: Get date by timezone string
+- openpyxl: Create or remove sheet
