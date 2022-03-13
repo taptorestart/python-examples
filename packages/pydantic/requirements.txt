@@ -1,0 +1,2 @@
+pydantic==1.9.0
+pydantic[email]==1.9.0
