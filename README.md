@@ -23,3 +23,4 @@
 - dateparser: Get date by timezone string
 - openpyxl: Create or remove sheet
 - collections: defaultdict
+- pydantic: Validate email
