@@ -18,7 +18,7 @@
 - opencv: Save image or video from RTSP Url
 - slack_sdk: Send slack message
 - hashlib: Make hashed text
-- pyjwt: jwt encode and decode
+- [pyjwt](https://github.com/taptorestart/python-examples/tree/main/packages/pyjwt/README.md): jwt encode and decode
 - influxdb: Write and read on influxdb
 - dateparser: Get date by timezone string
 - openpyxl: Create or remove sheet
