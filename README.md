@@ -24,3 +24,4 @@
 - openpyxl: Create or remove sheet
 - collections: defaultdict
 - pydantic: Validate email
+- [python-dotenv](https://github.com/taptorestart/python-examples/tree/main/packages/python-dotenv/README.md): Read key-value pairs from .env file as environment variables
