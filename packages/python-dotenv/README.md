@@ -8,6 +8,7 @@
 ## Run
 
 Please create an .env file in the root directory of your project.
+
 ![Root directory of a project](./root_directory_of_project.png)
 
 And then write like below.
