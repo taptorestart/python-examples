@@ -25,3 +25,4 @@
 - collections: defaultdict
 - pydantic: Validate email
 - [python-dotenv](https://github.com/taptorestart/python-examples/tree/main/packages/python-dotenv/README.md): Read key-value pairs from .env file as environment variables
+- [boto3](https://github.com/taptorestart/python-examples/tree/main/packages/boto3/README.md): Upload a file to AWS S3, Download a file from AWS S3 
