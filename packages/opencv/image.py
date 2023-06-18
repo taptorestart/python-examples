@@ -38,4 +38,4 @@ def save_image_from_rtsp(save_path, image_filename, rtsp_url):
 if __name__ == "__main__":
     rtsp_url = "rtsp://Input your rtsp url here"
     frame = get_image_from_rtsp(rtsp_url)
-    image_path = save_image_from_rtsp('./', 'image.jpg', rtsp_url)
+    image_path = save_image_from_rtsp("./", "image.jpg", rtsp_url)
