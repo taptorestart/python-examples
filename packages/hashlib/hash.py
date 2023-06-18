@@ -5,7 +5,7 @@ from hashlib import blake2b
 def get_hash(text, text_size):
     salt = os.urandom(blake2b.SALT_SIZE)
     h1 = blake2b(salt=salt)
-    h1.update(bytes(text, 'UTF-8'))
+    h1.update(bytes(text, "UTF-8"))
     return h1.hexdigest()[:text_size]
 
 

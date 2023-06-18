@@ -11,7 +11,7 @@ class Queue:
             if len(self._queue) < self._limit:
                 self._queue.append(value)
             else:
-                raise Exception('Queue overflow')
+                raise Exception("Queue overflow")
         except Exception as e:
             print(e)
 
@@ -27,7 +27,7 @@ class Queue:
         return self._queue
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     queue = Queue(3)
     queue.enqueue(1)
     print(queue.__str__())
@@ -43,7 +43,7 @@ if __name__ == '__main__':
     print(queue.dequeue())
     print(queue.dequeue())
 
-'''
+"""
 # Result example
 [1]
 [1, 2]
@@ -55,4 +55,4 @@ Queue overflow
 2
 3
 None
-'''
+"""

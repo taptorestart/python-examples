@@ -11,7 +11,7 @@ class Stack:
             if len(self._stack) < self._limit:
                 self._stack.append(value)
             else:
-                raise Exception('Stack overflow')
+                raise Exception("Stack overflow")
         except Exception as e:
             print(e)
 
@@ -31,7 +31,7 @@ class Stack:
         return self._stack
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     stack = Stack(limit=3)
     stack.push(1)
     print(stack.__str__())
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     print(stack.pop())
     print(stack.__str__())
 
-'''
+"""
 # Result example
 [1]
 [1, 2]
@@ -53,4 +53,4 @@ Stack overflow
 [1, 2, 3]
 3
 [1, 2]
-'''
+"""

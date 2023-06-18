@@ -4,8 +4,8 @@ from openpyxl import Workbook
 wb = Workbook()
 ws = wb.active
 data = [
-    ['Jane', 80, 70],
-    ['John', 70, 80],
+    ["Jane", 80, 70],
+    ["John", 70, 80],
 ]
 ws.append(["Student", "English", "Math"])
 for row in data:

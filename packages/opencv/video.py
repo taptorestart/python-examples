@@ -14,10 +14,12 @@ def save_video_from_rtsp(save_path, video_filename, rtsp):
     if not video_capture.isOpened():
         print("Video Capture cannot open.")
         return
-    video_codec = cv2.VideoWriter_fourcc(*'avc1')
+    video_codec = cv2.VideoWriter_fourcc(*"avc1")
     retval, video_frame = video_capture.read()
     if video_frame is not None:
-        video_writer = cv2.VideoWriter(video_path, video_codec, frame_per_second, (video_frame.shape[1], video_frame.shape[0]))
+        video_writer = cv2.VideoWriter(
+            video_path, video_codec, frame_per_second, (video_frame.shape[1], video_frame.shape[0])
+        )
         frame_index = 0
 
         while video_capture.isOpened():
@@ -37,4 +39,4 @@ def save_video_from_rtsp(save_path, video_filename, rtsp):
 
 if __name__ == "__main__":
     rtsp_url = "rtsp://Input your rtsp url here"
-    video_path = save_video_from_rtsp('./', 'video.mp4', rtsp_url)
+    video_path = save_video_from_rtsp("./", "video.mp4", rtsp_url)

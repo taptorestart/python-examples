@@ -9,16 +9,16 @@ class User(BaseModel):
 
 if __name__ == "__main__":
     data = {
-        'id': '1',
-        'name': 'taptorestart',
-        'email': 'taptorestart@gmail.com',
+        "id": "1",
+        "name": "taptorestart",
+        "email": "taptorestart@gmail.com",
     }
     user = User(**data)
     print(user)
     data_with_incorrect_email = {
-        'id': '2',
-        'name': 'taptorestart',
-        'email': 'test.gmail.com',
+        "id": "2",
+        "name": "taptorestart",
+        "email": "test.gmail.com",
     }
     user = User(**data_with_incorrect_email)
     print(user)

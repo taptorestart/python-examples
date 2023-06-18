@@ -30,13 +30,13 @@ class SinglyLinkedList:
         return stringify_list
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     linked_list = SinglyLinkedList()
     linked_list.insert(1)
     linked_list.insert(2)
     print(linked_list.stringify_list())
 
-'''
+"""
 # Result example
 1 -> 2 -> 
-'''
+"""
